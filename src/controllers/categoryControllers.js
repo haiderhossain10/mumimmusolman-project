@@ -19,7 +19,7 @@ const categoryCreate = async (req, res) => {
 };
 
 // all categories
-const categoriesList = async (_, res) => {
+const categoriesList = async (req, res) => {
     try {
         const categories = await Category.find().populate(
             "author",

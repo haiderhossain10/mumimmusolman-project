@@ -5,7 +5,7 @@ const {
     categoriesList,
     categoryUpdate,
     categoryDelete,
-} = require("../controllers/CategoryControllers");
+} = require("../controllers/categoryControllers");
 
 const categoryRoutes = express.Router();
 
