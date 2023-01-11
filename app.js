@@ -5,10 +5,10 @@ const db = require("./src/config/db");
 const apiNotFound = require("./src/middlewares/404");
 const authRoutes = require("./src/routes/authRoutes");
 const blogRoutes = require("./src/routes/blogRoutes");
-const categoryRoutes = require("./src/routes/categoryRoutes");
 const dotenv = require("dotenv");
 dotenv.config();
 const cookieParser = require("cookie-parser");
+const categoryRoutes = require("./src/routes/categoryRoutes");
 
 const app = express();
 

@@ -6,6 +6,7 @@ const {
     categoryUpdate,
     categoryDelete,
 } = require("../controllers/CategoryControllers");
+
 const categoryRoutes = express.Router();
 
 categoryRoutes.post("/category", categoryValidator, categoryCreate);
